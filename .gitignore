@@ -13,7 +13,6 @@ Makefile.bak
 instlist.man
 mkfb
 mkicon
-obj/
 ReleaseNotes.html
 Resources.html
 *.*sdf

@@ -1,0 +1,1 @@
+mkicon: ../../../Common/mkicon.c

@@ -1,0 +1,15 @@
+print_gui_stubs.o: ../../../Common/print_gui_stubs.c \
+ ../../../include/globals.h \
+ ../../../lib/w3270stubs/../include/windows/conf.h \
+ ../../../include/wincmn.h ../../../lib/w3270stubs/../include/localdefs.h \
+ ../../../include/print_gui.h
+
+../../../include/globals.h:
+
+../../../lib/w3270stubs/../include/windows/conf.h:
+
+../../../include/wincmn.h:
+
+../../../lib/w3270stubs/../include/localdefs.h:
+
+../../../include/print_gui.h:
