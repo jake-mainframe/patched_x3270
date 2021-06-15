@@ -31,7 +31,7 @@ LIB32XX = lib32xx.a
 include winenv.mk
 
 XCPPFLAGS = $(WIN32_FLAGS) -I$(THIS) -I$(THIS)/../include/windows -I$(THIS)/../include -I$(TOP)/include
-CFLAGS = $(EXTRA_FLAGS) -g -Wall -Werror -MMD -MP $(XCPPFLAGS) $(SSLCPP)
+CFLAGS = $(EXTRA_FLAGS) -g -Wall -MMD -MP $(XCPPFLAGS) $(SSLCPP)
 
 all:: $(LIB32XX)
 
